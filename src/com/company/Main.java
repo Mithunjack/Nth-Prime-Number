@@ -5,6 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
+        System.out.print("Input Value:  ");
         int inputValue = read.nextInt();
         int counter = 0;
         int startingValue =2;
@@ -16,7 +17,7 @@ public class Main {
                  counter++;
             }
             if (inputValue==counter){
-                System.out.println(startingValue);
+                System.out.println(inputValue+ " No Prime Value is: "+startingValue);
                 break;
             }
             startingValue++;
